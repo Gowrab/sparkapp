@@ -17,5 +17,5 @@ https://github.com/Gowrab/sparkapp/blob/master/records/app-armeabi-v7a-release.a
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Gowrab/sparkapp/blob/master/records/registration.jpeg)
+![App Screenshot](https://github.com/Gowrab/sparkapp/blob/master/records/registration.jpeg | width=100)
 
