@@ -11,8 +11,8 @@ The task is to create registration and authentication screens using Flutter, Fir
         4. Include Error handling.
         5. It is not necessary to match the design or fonts exactly, we are more looking at the functionality of your solution.
 
-## Demo
-
+## Apk
+https://github.com/Gowrab/sparkapp/blob/master/records/app-armeabi-v7a-release.apk
 
 
 ## Screenshots
