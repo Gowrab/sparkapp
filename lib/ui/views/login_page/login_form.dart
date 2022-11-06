@@ -64,7 +64,7 @@ class LoginForm extends HookViewModelWidget<LoginViewModel> {
                 viewModel.isBusy
                     ? null
                     : viewModel.onSubmit(
-                        emailController.text, passwordController.text);
+                        emailController.text.trim(), passwordController.text.trim());
               },
               child: viewModel.isBusy
                   ? const CircularProgressIndicator(

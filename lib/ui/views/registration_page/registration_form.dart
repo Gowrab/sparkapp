@@ -118,9 +118,9 @@ class RegistrationForm extends HookViewModelWidget<RegistrationViewModel> {
               onPressed: () => viewModel.isBusy
                   ? null
                   : viewModel.onSubmit(
-                      email: emailController.text,
-                      password: passwordController.text,
-                      name: usernameController.text,
+                      email: emailController.text.trim(),
+                      password: passwordController.text.trim(),
+                      name: usernameController.text.trim(),
                       dob: yearOfBirthController.dropDownValue?.value,
                       gender: genderController.dropDownValue?.value),
               child: viewModel.isBusy

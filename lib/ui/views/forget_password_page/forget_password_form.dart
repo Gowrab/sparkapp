@@ -45,7 +45,7 @@ class ForgetPasswordForm extends HookViewModelWidget<ForgetPasswordViewModel> {
                   ElevatedButton(
                     onPressed: () => viewModel.isBusy
                         ? null
-                        :viewModel.onSubmit(emailAddressController.text),
+                        :viewModel.onSubmit(emailAddressController.text.trim()),
                     child: viewModel.isBusy?const CircularProgressIndicator(
                       color: backgroundColor,
                     ):Text(
